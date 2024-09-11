@@ -1,0 +1,135 @@
+<mxfile host="app.diagrams.net" modified="2024-06-06T03:41:29.371Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0" etag="VcffzguJj_vMnXf_p8E2" version="24.4.14" type="device">
+  <diagram name="第 1 页" id="o_6vvvUmwXlT57cr5RcE">
+    <mxGraphModel dx="1386" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CUkAqHbni4FrplnEtGhV-4" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.performance_monitor" vertex="1" parent="1">
+          <mxGeometry x="188.32999999999998" y="40" width="291.67" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-5" value="Logic Analyser 25*2 pins&lt;div&gt;MSO 5000 or DHO900&amp;nbsp;&lt;/div&gt;&lt;div&gt;16 LA Channels&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-7" value="&lt;div&gt;Pod Hub&lt;/div&gt;&lt;div&gt;Logic Analyser Board for Rigol&lt;/div&gt;HDMI(mini)/USB Type-C pins (This uses HDMI)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="CUkAqHbni4FrplnEtGhV-7" target="CUkAqHbni4FrplnEtGhV-5">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="460" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-10" value="&lt;div&gt;25*2 pins&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CUkAqHbni4FrplnEtGhV-9">
+          <mxGeometry x="0.3316" y="3" relative="1" as="geometry">
+            <mxPoint y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-12" value="HDMI 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="540" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-13" value="HDMI 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="540" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-14" value="HDMI 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="540" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-15" value="HDMI 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="540" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-16" value="Pod 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="130" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-17" value="HDMI 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="83.75" y="720" width="62.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-18" value="Input Pin |1|2|3|4|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58.75" y="910" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-19" value="LMH7322 (&amp;lt;=40V) or&lt;div&gt;LMH7324 (&amp;lt;=40) or&lt;/div&gt;&lt;div&gt;SNV65LVDS (&amp;lt;= 5V)&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/circuit-128.png" vertex="1" parent="1">
+          <mxGeometry x="95" y="740" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CUkAqHbni4FrplnEtGhV-17" target="CUkAqHbni4FrplnEtGhV-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-23" value="GND Pin |G|G|G|G|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58.75" y="930" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-40" value="Pod 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="700" width="130" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-41" value="HDMI 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="233.75" y="720" width="62.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-42" value="Input Pin |1|2|3|4|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208.75" y="910" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-43" value="LMH7322 (&amp;lt;=40V) or&lt;div&gt;LMH7324 (&amp;lt;=40) or&lt;/div&gt;&lt;div&gt;SNV65LVDS (&amp;lt;= 5V)&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/circuit-128.png" vertex="1" parent="1">
+          <mxGeometry x="245" y="740" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-44" value="GND Pin |G|G|G|G|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="208.75" y="930" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-45" value="Pod 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="700" width="130" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-46" value="HDMI 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382.75" y="720" width="62.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-47" value="Input Pin |1|2|3|4|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.75" y="910" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-48" value="LMH7322 (&amp;lt;=40V) or&lt;div&gt;LMH7324 (&amp;lt;=40) or&lt;/div&gt;&lt;div&gt;SNV65LVDS (&amp;lt;= 5V)&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/circuit-128.png" vertex="1" parent="1">
+          <mxGeometry x="394" y="740" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-49" value="GND Pin |G|G|G|G|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="357.75" y="930" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-50" value="Pod 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="700" width="130" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-51" value="HDMI 4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="533.75" y="720" width="62.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-52" value="Input Pin |1|2|3|4|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="508.75" y="910" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-53" value="LMH7322 (&amp;lt;=40V) or&lt;div&gt;LMH7324 (&amp;lt;=40) or&lt;/div&gt;&lt;div&gt;SNV65LVDS (&amp;lt;= 5V)&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-2/24/circuit-128.png" vertex="1" parent="1">
+          <mxGeometry x="545" y="740" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-54" value="GND Pin |G|G|G|G|" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="508.75" y="930" width="112.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-55" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CUkAqHbni4FrplnEtGhV-41" target="CUkAqHbni4FrplnEtGhV-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-56" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CUkAqHbni4FrplnEtGhV-46" target="CUkAqHbni4FrplnEtGhV-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-57" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="CUkAqHbni4FrplnEtGhV-51" target="CUkAqHbni4FrplnEtGhV-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-58" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;Rigol Oscilloscope with&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304.16" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-62" value="16 Channels&lt;div&gt;Input Pins 4*4&lt;/div&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="695" width="80" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="CUkAqHbni4FrplnEtGhV-63" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;A diagram of LA Pod&lt;/h1&gt;&lt;p&gt;This illustrates how the LaPod works as Logic Analyser for Rigol MSO5000/DHO900 Oscilloscopes using different on-board solutions based on the budget and performance. Draw by Songhua Liu&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="585" y="40" width="195" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
